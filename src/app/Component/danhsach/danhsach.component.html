@@ -1,0 +1,18 @@
+<!-- API -->
+<app-add-student [dataInput]="studentsAPI"></app-add-student>
+<div class="row">
+  <div class="col-xl-3 col-md-4 col-sm-6 col-xs-12 mb-3" *ngFor="let item of studentsAPI">
+    <div class="card " >
+      <img class="card-img-top" src="{{item.photo}}" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">{{item.name}}</h4>
+        <p class="card-text">Điểm trung Bình: {{item.point}}</p>
+        <a routerLink="/student/{{item.id}}" class="btn btn-warning">Thông
+          tin</a>
+        <a (click)="delete(item)" class="btn btn-danger" style="margin-left: 5px;">Xóa</a>
+      </div>
+
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,21 @@
+.background{
+  background: url(../img/backgournd.jpg) center center;
+  height: 514px;
+  background-size: cover;
+}
+div#collapsibleNavbar{
+    display: inline-block !important;
+}
+.navbar-nav{
+    display: inline-flex!important;
+}
+.nav-item{
+    display: inline-block !important;
+}
+.active{
+    display: inline-block!important;
+}
+button{
+    float: right;
+}
+

@@ -1,0 +1,1718 @@
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta charset="UTF-8">
+    <title>SeaFood Store</title>
+    <meta name="description">
+    <meta name="keywords">
+    <link href="/Uploads/shop2005/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta property="fb:app_id" content="227481454296289">
+
+    <meta content="vi_VN" property="og:locale">
+    <meta content="website" property="og:type">
+    <meta content="SeaFood Store" property="og:title">
+    <meta property="og:description">
+    <meta content="http://hoantph06495.runtime.vn/Uploads/shop2005/images/logo.png" property="og:image">
+    <meta content="http://hoantph06495.runtime.vn/" property="og:url">
+    <meta property="og:site_name">
+
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+    <!--[if lt IE 9]>
+        <script src="/assets/100004/js/html5shiv.js"></script>
+    <![endif]-->
+
+<style>
+        .loader_overlay {
+            position: fixed;
+            z-index: 9999;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-color: #fff;
+            -webkit-transition: all .1s ease;
+            -o-transition: all .1s ease;
+            transition: all .1s ease;
+            opacity: 1;
+            visibility: visible;
+        }
+
+            .loader_overlay.loaded {
+                opacity: 0;
+                visibility: hidden;
+                z-index: -2;
+            }
+    </style>
+<!--CSS-->
+    <link rel="stylesheet" href="/assets/100004/js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/100004/fonts/font-awesome/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/assets/100004/fonts/fonts-master/roboto.css">
+    <!--JS-->
+    <script src="https://connect.facebook.net/en_US/sdk.js?hash=754b8e74d6d4bea70b242326007c7942&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.6&amp;appId=227481454296289"></script><script src="/assets/100004/js/plugin.js?v=582"></script>
+    <script src="/assets/100004/js/option_selection.js"></script>
+    <script src="/assets/100004/js/api.jquery.js"></script>
+    <!-- Đặt thẻ này vào phần đầu hoặc ngay trước thẻ đóng phần nội dung của bạn. -->
+    <script src="https://apis.google.com/js/platform.js" async="" defer="" gapi_processed="true"></script>
+    <script async="" defer="defer" data-target=".product-resize" data-parent=".products-resize" data-img-box=".image-resize" src="/assets/100004/js/fixheightproductv2.js?v=582"></script>
+    <script src="/assets/100004/js/scripts.js?v=582"></script>
+    <script src="/Scripts/common/mycard.js" type="text/javascript"></script>
+    <script src="/Scripts/lazyLoad/jquery.lazyload.min.js" type="text/javascript"></script>
+
+<script src="/Scripts/angularJS/angular.min.js"></script>
+    <script src="/Scripts/angularJS/angular-sanitize.min.js"></script>
+<script type="text/javascript" src="/Scripts/angular-loading-spinner/spin.min.js"></script><style type="text/css"></style>
+<script type="text/javascript" src="/Scripts/angular-loading-spinner/angular-spinner.min.js"></script>
+<script type="text/javascript" src="/Scripts/angular-loading-spinner/angular-loading-spinner.js"></script>
+    <script src="/app/appMain.js"></script>
+    <script src="/app/directives/directive.js"></script>
+    <script src="/app/directives/angular-summernote.js"></script>
+    <script src="/app/directives/paging.js"></script>
+    <script src="/app/services/ajaxServices.js"></script>
+    <script src="/app/services/alertsServices.js"></script>
+    <link href="http://static.runtime.vn/App_Themes/RUN004/style.css" rel="stylesheet" type="text/css">
+    <link href="http://static.runtime.vn/App_Themes/RUN004/responsive.css" rel="stylesheet" type="text/css">
+
+    
+
+    
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style></head>
+<body ng-app="appMain" style="" cz-shortcut-listen="true" class="ng-scope">
+    <div class="loader_overlay loaded"></div>
+    <div id="opacity" class=""></div>
+        <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f2fbc45d32f7278&amp;origin=http%3A%2F%2Fhoantph06495.runtime.vn" style="border: none;"></iframe></div><div></div></div></div>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=227481454296289";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+    
+
+<div class="wrapper">
+    
+        <div class="header">
+
+<script src="/Scripts/common/login.js" type="text/javascript"></script>
+    <section class="top-link clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav navbar-nav topmenu-contact pull-left">
+                        <li><i class="fa fa-phone"></i> <span>Hotline:0943235498</span></li>
+                    </ul>
+                        <ul class="nav navbar-nav navbar-right topmenu  hidden-xs hidden-sm">
+                            <li class="order-check"><a href="/kiem-tra-don-hang.html"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+                            <li class="order-cart"><a href="/gio-hang.html"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                            <li class="account-login"><a href="/dang-nhap.html"><i class="fa fa-sign-in"></i> Đăng nhập </a></li>
+                            <li class="account-register"><a href="/dang-ky.html"><i class="fa fa-key"></i> Đăng ký </a></li>
+                        </ul>
+                    <div class="show-mobile hidden-lg hidden-md">
+                        <div class="quick-user">
+                            <div class="quickaccess-toggle">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="inner-toggle">
+                                    <ul class="login links">
+                                        <li>
+                                            <a href="/dang-ky.html"><i class="fa fa-sign-in"></i> Đăng ký</a>
+                                        </li>
+                                        <li>
+                                            <a href="/dang-nhap.html"><i class="fa fa-key"></i> Đăng nhập</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="quick-access">
+                            <div class="quickaccess-toggle">
+                                <i class="fa fa-list"></i>
+                            </div>
+                            <div class="inner-toggle">
+                                <ul class="links">
+                                    <li><a id="mobile-wishlist-total" href="/kiem-tra-don-hang.html" class="wishlist"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+                                    <li><a href="/gio-hang.html" class="shoppingcart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Template--
+<section class="top-link clearfix" ng-controller="moduleController" ng-init="initTopLinkController('Shop','AccountLogin')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav navbar-nav topmenu-contact pull-left">
+                    <li><i class="fa fa-phone"></i> <span>Hotline:{{shop.Hotline}}</span></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right topmenu  hidden-xs hidden-sm" ng-if="accountLogin==null">
+                    <li class="order-check"><a href="/kiem-tra-don-hang.html"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+                    <li class="order-cart"><a href="/gio-hang.html"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                    <li class="account-login"><a href="/dang-nhap.html"><i class="fa fa-sign-in"></i> Đăng nhập </a></li>
+                    <li class="account-register"><a href="/dang-ky.html"><i class="fa fa-key"></i> Đăng ký </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right topmenu hidden-xs hidden-sm" ng-if="accountLogin!=null">
+                    <li class="order-check"><a href="/kiem-tra-don-hang.html"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+                    <li class="order-cart"><a href="/gio-hang.html"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                    <li class="webmaster"><a href="/admin"><i class="fa fa-gears"></i> Quản trị website</a></li>
+                    <li class="account-info">
+                        <a href="/thong-tin-tai-khoan.html">{{accountLogin.Email}}</a>
+                        <a class="account-logout" id="btnLogOff" href="javascript:void(0)" title="">[Thoát] </a>
+                    </li>
+                </ul>
+                <div class="show-mobile hidden-lg hidden-md">
+                    <div class="quick-user">
+                        <div class="quickaccess-toggle">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="inner-toggle">
+                            <ul class="login links" ng-if="accountLogin==null">
+                                <li>
+                                    <a href="/dang-ky.html"><i class="fa fa-sign-in"></i> Đăng ký</a>
+                                </li>
+                                <li>
+                                    <a href="/dang-nhap.html"><i class="fa fa-key"></i>Đăng nhập</a>
+                                </li>
+                            </ul>
+                            <ul class="login links" ng-if="accountLogin!=null">
+                                <li ng-if="accountLogin.AccountTypeId==1">
+                                    <a href="/admin"><i class="fa fa-gears"></i> Quản trị website</a>
+                                </li>
+                                <li>
+                                    <a href="/thong-tin-tai-khoan.html">{{accountLogin.Email}}</a>
+                                </li>
+                                <li>
+                                    <a id="btnLogOff2" href="javascript:void(0)"><i class="fa fa-sign-out"></i> [Thoát] </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quick-access">
+                        <div class="quickaccess-toggle">
+                            <i class="fa fa-list"></i>
+                        </div>
+                        <div class="inner-toggle">
+                            <ul class="links">
+                                <li><a id="mobile-wishlist-total" href="/kiem-tra-don-hang.html" class="wishlist"><i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
+                                <li><a href="/gio-hang.html" class="shoppingcart"><i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+--End-->
+
+        <!-- Header -->
+        <header id="header" class="header_fixed">
+            <div id="header_main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-8">
+                            <!--logo-->
+
+                            <h1 class="pull-left">
+                                <a href="/" class="logo" title="hoantph">
+                                    <img src="/Uploads/shop2005/images/logo.png" alt="hoantph" title="hoantph">
+                                </a>
+                            </h1>
+
+                            <!-- end logo -->
+                        </div>
+                        <div class="col-lg-6 col-md-5 col-sm-4 hidden-xs">
+                            <!-- Search -->
+                            <div class="search_box">
+                                <div class="search_wrapper">
+                                    <input type="text" name="search" class="index_input_search" id="txtsearch" onblur="if(this.value=='')this.value='Nhập từ khóa tìm kiếm...'" onfocus="if(this.value=='Nhập từ khóa tìm kiếm...')this.value=''" value="Nhập từ khóa tìm kiếm...">
+                                    <button class="btn_search_submit btn " type="button" id="btnsearch"><span>Tìm ngay</span></button>
+                                </div>
+                            </div>
+                            <!-- End Search -->
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                            <!-- Cart -->
+                            <div class="cart_header">
+                                <a href="/gio-hang.html" title="Giỏ hàng">
+                                    <span class="cart_header_icon"></span>
+                                    <span class="box_text">
+                                        <strong class="cart_header_count">Giỏ hàng <span>(0)</span></strong>
+                                        <span class="cart_price">0₫</span>
+                                    </span>
+                                </a>
+                                <div class="cart_clone_box">
+                                    <div class="cart_box_wrap hidden">
+                                        <div class="cart_item original clearfix">
+                                            <div class="cart_item_image"></div>
+                                            <div class="cart_item_info">
+                                                <p class="cart_item_title"><a href="" title=""></a></p>
+                                                <span class="cart_item_quantity"></span>
+                                                <span class="cart_item_price"></span>
+                                                <span class="remove"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="cart_header_top_box">
+                                        <div class="cart_empty">Giỏ hàng của bạn vẫn chưa có sản phẩm nào.</div>
+                                    </div>
+                            </div>
+                            <!-- End Cart -->
+                                <!-- Account -->
+                                <div class="user_login">
+                                    <div class="user_login_icon"></div>
+                                    <div class="box_text">
+                                        <strong>Tài khoản</strong>
+                                        <!--<span class="cart_price">Đăng nhập, đăng ký</span>-->
+                                    </div>
+                                    <div class="user_box">
+                                        <ul>
+                                            <li><a href="/dang-nhap.html">Đăng nhập</a></li>
+                                            <li><a href="/dang-ky.html">Đăng ký</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End account -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header_mobile">
+                <div class="container">
+                    <div class="row">
+                        <!-- Menu mobile -->
+                        <button type="button" class="navbar-toggle collapsed" id="trigger_click_mobile">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div id="mobile_wrap_menu" class="visible-xs visible-sm">
+                            <div class="user_mobile">
+                                <div class="icon_user_mobile">
+                                    <img src="/assets/100004/images/user_mobile.png" alt="account">
+                                </div>
+                                <div class="login_mobile">
+
+                                        <a href="/dang-nhap.html" class="login-btn">Đăng nhập </a><a href="/dang-ky.html" class="login-btn"> / Đăng ký</a>
+                                </div>
+                                <div class="close_menu"></div>
+                            </div>
+                            <div class="content_menu">
+                                <ul><li class="level0"><a class="" href="/trang-chu.html"><span>Trang chủ</span></a></li>
+<li class="level0"><a class="" href="/gioi-thieu.html"><span>Giới thiệu</span></a></li>
+<li class="level0"><a class="" href="/san-pham.html"><span>Sản phẩm</span></a></li>
+<li class="level0"><a class="" href="/tin-tuc.html"><span>Tin tức</span></a></li>
+<li class="level0"><a class="" href="/lien-he.html"><span>Liên hệ</span></a></li>
+</ul>
+                            </div>
+                        </div>
+                        <!-- End menu mobile -->
+                        <div class="pull-right mobile-menu-icon-wrapper">
+                            <!-- Logo mobile -->
+                            <div class="logo logo-mobile">
+                                <a href="/" title="hoantph">
+                                    <img src="/Uploads/shop2005/images/logo.png" alt="hoantph">
+                                </a>
+                            </div>
+                            <!-- End Logo mobile -->
+                            <!-- Cart mobile -->
+                            <div class="cart_header" id="cart-target">
+                                <a href="/gio-hang.html" title="Giỏ hàng">
+                                    <div class="cart_header_icon"></div>
+                                    <div class="box_text">
+                                        <strong class="cart_header_count"><span>0</span></strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- End Cart mobile -->
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- Search mobile -->
+                        <div class="search_mobile col-md-12">
+                            <div class="search_box">
+                                <div class="search_wrapper">
+                                    <input type="text" name="search" class="index_input_search" id="txtsearch2" onblur="if(this.value=='')this.value='Nhập từ khóa tìm kiếm...'" onfocus="if(this.value=='Nhập từ khóa tìm kiếm...')this.value=''" value="Nhập từ khóa tìm kiếm...">
+                                    <button class="btn_search_submit btn " type="button" id="btnsearch2"><span><i class="fa fa-search"></i></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End search mobile -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+        <script type="text/javascript">
+            $("#btnsearch").click(function () {
+                SearchProduct();
+            });
+            $("#btnsearch2").click(function () {
+                SearchProduct2();
+            });
+            $("#txtsearch").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    SearchProduct();
+                }
+            });
+            $("#txtsearch2").keydown(function (event) {
+                if (event.keyCode == 13) {
+                    SearchProduct2();
+                }
+            });
+            function SearchProduct() {
+                var key = $('#txtsearch').val();
+                if (key == '' || key == 'Tìm kiếm...') {
+                    $('#txtsearch').focus();
+                    return;
+                }
+                window.location = '/tim-kiem.html?key=' + key;
+            }
+            function SearchProduct2() {
+                var key = $('#txtsearch2').val();
+                if (key == '' || key == 'Tìm kiếm...') {
+                    $('#txtsearch2').focus();
+                    return;
+                }
+                window.location = '/tim-kiem.html?key=' + key;
+            }
+        </script>
+<!--Template--
+--End-->
+
+    <!-- Main menu -->
+    <nav class="navbar-main">
+        <div id="mb_mainnav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12 vertical_menu">
+                        <div id="mb_verticle_menu" class="menu-quick-select">
+                            <div class="title_block">
+                                <span>Danh mục sản phẩm</span>
+                            </div>
+                            <div id="menuverti" class="block_content navbar_menuvertical">
+                                <ul class="nav_verticalmenu"><li class="has-child level0"><a class="" href="/san-pham/nghao-so-oc-33804"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s1.png" alt="Nghao - Sò - Ốc"> <span>Nghao - Sò - Ốc</span></a><ul class="level1"><li class="level1"><a class="" href="/san-pham/ngao-33820"><span>Ngao</span></a></li>
+<li class="level1"><a class="" href="/san-pham/so-33821"><span>Sò</span></a></li>
+<li class="level1"><a class="" href="/san-pham/oc-33822"><span>Ốc</span></a></li>
+<li class="level1"><a class="" href="/san-pham/hau-33823"><span>Hàu</span></a></li>
+</ul></li>
+<li class="level0"><a class="" href="/san-pham/bao-ngu-33805"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s2.png" alt="Bào ngư"> <span>Bào ngư</span></a></li>
+<li class="level0"><a class="" href="/san-pham/tom-33806"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s3.png" alt="Tôm"> <span>Tôm</span></a></li>
+<li class="level0"><a class="" href="/san-pham/muc-33807"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s4.png" alt="Mực"> <span>Mực</span></a></li>
+<li class="has-child level0"><a class="" href="/san-pham/ca-33808"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s5.png" alt="Cá"> <span>Cá</span></a><ul class="level1"><li class="level1"><a class="" href="/san-pham/ca-ngu-dai-duong-33824"><span>Cá ngừ đại dương</span></a></li>
+<li class="level1"><a class="" href="/san-pham/ca-hoi-33825"><span>Cá hồi</span></a></li>
+</ul></li>
+<li class="has-child level0"><a class="" href="/san-pham/cua-nghe-33809"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s6.png" alt="Cua nghẹ"> <span>Cua nghẹ</span></a><ul class="level1"><li class="level1"><a class="" href="/san-pham/cua-33826"><span>Cua</span></a></li>
+<li class="level1"><a class="" href="/san-pham/nghe-33827"><span>Nghẹ</span></a></li>
+</ul></li>
+<li class="level0"><a class="" href="/san-pham/sua-33810"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s7.png" alt="Sứa"> <span>Sứa</span></a></li>
+<li class="level0"><a class="" href="/san-pham/hai-san-dong-hop-che-bien-33811"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s8.png" alt="Hải sản đóng hộp - chế biến"> <span>Hải sản đóng hộp - chế biến</span></a></li>
+<li class="has-child level0"><a class="" href="/san-pham/hai-san-kho-33812"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s9.png" alt="Hải sản khô"> <span>Hải sản khô</span></a><ul class="level1"><li class="level1"><a class="" href="/san-pham/hai-san-kho-33828"><span>Hải sản khô</span></a></li>
+</ul></li>
+<li class="level0"><a class="" href="/san-pham/san-pham-khac-33813"><img class="icon-menu" src="/Uploads/shop2005/images/icon/s9.png" alt="Sản phẩm khác"> <span>Sản phẩm khác</span></a></li>
+</ul>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="col-md-9 col-sm-12 col-xs-12 p-l-0">
+                        <ul class="menu nav navbar-nav menu_hori"><li class="level0"><a class="" href="/trang-chu.html"><span>Trang chủ</span></a></li>
+<li class="level0"><a class="" href="/gioi-thieu.html"><span>Giới thiệu</span></a></li>
+<li class="level0"><a class="" href="/san-pham.html"><span>Sản phẩm</span></a></li>
+<li class="level0"><a class="" href="/tin-tuc.html"><span>Tin tức</span></a></li>
+<li class="level0"><a class="" href="/lien-he.html"><span>Liên hệ</span></a></li>
+</ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End main menu -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        var str = location.href.toLowerCase();
+        $("ul.menu li a").each(function () {
+            if (str.indexOf(this.href.toLowerCase()) >= 0) {
+                $("ul.menu li").removeClass("active");
+                $(this).parent().addClass("active");
+            }
+        });
+    });
+</script>
+<!--Template--
+
+--End-->
+        </div>
+
+
+    
+        <div class="slideshow">
+            <div class="container">
+                <div class="row">
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-9 ">
+
+    <div class="homeslider">
+        <div id="owl-slider" class="owl-carousel owl-carousel-banner owl-theme" style="opacity: 1; display: block;">
+                <div class="owl-wrapper-outer"><div class="owl-wrapper owl-origin" style="width: 5310px; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(-1770px, 0px, 0px); transform-origin: 2212.5px center; perspective-origin: 2212.5px center;"><div class="owl-item" style="width: 885px;"><div class="item">
+                    <a href="#"><img src="/Uploads/shop2005/images/slide/slider_1.jpg" alt="1"></a>
+                </div></div><div class="owl-item owl-fade-out" style="width: 885px; position: relative; left: 885px;"><div class="item">
+                    <a href="#"><img src="/Uploads/shop2005/images/slide/slider_2.jpg" alt="2"></a>
+                </div></div><div class="owl-item owl-fade-in" style="width: 885px;"><div class="item">
+                    <a href="#"><img src="/Uploads/shop2005/images/slide/slider_3.jpg" alt="3"></a>
+                </div></div></div></div>
+                
+                
+        <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div></div><div class="owl-buttons"><div class="owl-prev"><span class="fa fa-arrow-left"></span></div><div class="owl-next"><span class="fa fa-arrow-right"></span></div></div></div></div>
+    </div>
+<!--Template--
+--End-->
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    
+            <div class="adv">
+
+<section id="service">
+    <div class="container m-b-30">
+        <div class="row">
+            <div id="service_home" class="clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xxs-12 text-center m-b-xs-10">
+                    <div class="service_item">
+                        <div class="icon icon_product">
+                            <img src="/assets/100004/images/icon_1.png?v=582" alt="">
+                        </div>
+                        <div class="description_icon">
+                            <span class="large-text">
+                                Miễn phí giao hàng
+                            </span>
+                            <span class="small-text">
+                                Cho hóa đơn từ 450,000đ
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xxs-12 text-center m-b-xs-10">
+                    <div class="service_item">
+                        <div class="icon icon_product">
+                            <img src="/assets/100004/images/icon_2.png?v=582" alt="">
+                        </div>
+                        <div class="description_icon">
+                            <span class="large-text">
+                                Giao hàng trong ngày
+                            </span>
+                            <span class="small-text">
+                                Với tất cả đơn hàng
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center m-b-xs-10">
+                    <div class="service_item">
+                        <div class="icon icon_product">
+                            <img src="/assets/100004/images/icon_3.png?v=582" alt="">
+                        </div>
+                        <div class="description_icon">
+                            <span class="large-text">
+                                Sản phẩm an toàn
+                            </span>
+                            <span class="small-text">
+                                Cam kết chất lượng
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Begin-->
+<!--End-->
+            </div>
+
+    
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3">
+
+<script src="/app/services/moduleServices.js"></script>
+<script src="/app/controllers/moduleController.js"></script>
+    <!--Begin-->
+    <div class="box-adv ng-scope" ng-controller="moduleController" ng-init="initAdvMenuController('AdvMenus')">
+        <!-- ngRepeat: item in AdvMenus --><div class="sidebar_banner ng-scope" ng-repeat="item in AdvMenus">
+            <div class="img_banner">
+                <a href="#">
+                    <img ng-src="/Uploads/shop2005/images/adv/banner_sidebar_img_1.jpg" data-original="/Uploads/shop2005/images/adv/banner_sidebar_img_1.jpg" alt="1" class="img-responsive lazy" src="/Uploads/shop2005/images/adv/banner_sidebar_img_1.jpg" style="display: block;"><div class="figcaption"></div>
+                </a>
+            </div>
+        </div><!-- end ngRepeat: item in AdvMenus --><div class="sidebar_banner ng-scope" ng-repeat="item in AdvMenus">
+            <div class="img_banner">
+                <a href="#">
+                    <img ng-src="/Uploads/shop2005/images/adv/banner_sidebar_img_2.jpg" data-original="/Uploads/shop2005/images/adv/banner_sidebar_img_2.jpg" alt="2" class="img-responsive lazy" src="/Uploads/shop2005/images/adv/banner_sidebar_img_2.jpg" style="display: block;"><div class="figcaption"></div>
+                </a>
+            </div>
+        </div><!-- end ngRepeat: item in AdvMenus -->
+    </div>
+    <!--End-->
+<script type="text/javascript">
+    window.AdvMenus = [{"Id":42047,"ShopId":32952,"AdvType":1,"AdvTypeName":"Menu 2 bên","Name":"1","Image":"/Uploads/shop2005/images/adv/banner_sidebar_img_1.jpg","ImageThumbnai":"/Uploads/shop2005/images/adv/banner_sidebar_img_1.jpg","Link":"#","IsVideo":false,"Index":1,"Inactive":false,"Timestamp":"AAAAAABDYDY="},{"Id":42048,"ShopId":32952,"AdvType":1,"AdvTypeName":"Menu 2 bên","Name":"2","Image":"/Uploads/shop2005/images/adv/banner_sidebar_img_2.jpg","ImageThumbnai":"/Uploads/shop2005/images/adv/banner_sidebar_img_2.jpg","Link":"#","IsVideo":false,"Index":2,"Inactive":false,"Timestamp":"AAAAAABDYDc="}];
+</script>
+<!-- Blog sidebar -->
+<div class="sidebar_blogs">
+    <h3 title="bài viết mới" class="sidebar_title">
+        Bài viết nổi bật
+    </h3>
+    <div class="blog_content">
+            <div class="article_item">
+                <div class="article_img">
+                    <a href="/tin-tuc/canh-rong-bien-thit-bo-9165.html">
+                        <img src="/Uploads/shop2005/images/news/canh-rong-bien-thit-bo.jpg" alt="Canh Rong Biển Thịt Bò" title="Canh Rong Biển Thịt Bò">
+                    </a>
+                </div>
+                <div class="article_content clearfix">
+                    <div class="title">
+                        <h4><a href="/tin-tuc/canh-rong-bien-thit-bo-9165.html" title="Canh Rong Biển Thịt Bò">Canh Rong Biển Thịt Bò</a></h4>
+                    </div>
+                    <div class="article_meta">
+                        <div class="article_comment">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                        </div>
+                        <div class="article_created">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                        </div>
+                    </div>
+                    <div class="des">
+                        <p>&nbsp;Bước 1: Cho tất cả rong biển vào ngâm trong nước. Sau khoảng 15 phút, vớt ra...&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                    </div>
+                    <a class="readmore" href="/tin-tuc/canh-rong-bien-thit-bo-9165.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="article_item">
+                <div class="article_img">
+                    <a href="/tin-tuc/ca-hoi-nuong-giay-bac-9164.html">
+                        <img src="/Uploads/shop2005/images/news/ca-hoi-nuong-giay-bac.jpg" alt="Cá Hồi nướng giấy bạc" title="Cá Hồi nướng giấy bạc">
+                    </a>
+                </div>
+                <div class="article_content clearfix">
+                    <div class="title">
+                        <h4><a href="/tin-tuc/ca-hoi-nuong-giay-bac-9164.html" title="Cá Hồi nướng giấy bạc">Cá Hồi nướng giấy bạc</a></h4>
+                    </div>
+                    <div class="article_meta">
+                        <div class="article_comment">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                        </div>
+                        <div class="article_created">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                        </div>
+                    </div>
+                    <div class="des">
+                        <p>Cá hồi không chỉ dùng ăn gỏi. Chúng ta còn có thể biến tấu phong phú hơn...&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                    </div>
+                    <a class="readmore" href="/tin-tuc/ca-hoi-nuong-giay-bac-9164.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="article_item">
+                <div class="article_img">
+                    <a href="/tin-tuc/cach-che-bien-mon-ngon-tu-kho-ca-dua-9163.html">
+                        <img src="/Uploads/shop2005/images/news/cach-che-bien-mon-ngon-tu-kho-ca-dua.jpg" alt="Cách chế biến món ngon từ khô cá dứa" title="Cách chế biến món ngon từ khô cá dứa">
+                    </a>
+                </div>
+                <div class="article_content clearfix">
+                    <div class="title">
+                        <h4><a href="/tin-tuc/cach-che-bien-mon-ngon-tu-kho-ca-dua-9163.html" title="Cách chế biến món ngon từ khô cá dứa">Cách chế biến món ngon từ khô cá dứa</a></h4>
+                    </div>
+                    <div class="article_meta">
+                        <div class="article_comment">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                        </div>
+                        <div class="article_created">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                        </div>
+                    </div>
+                    <div class="des">
+                        <p>Cá Dứa một nắng đã được tẩm gia vị, do đó chỉ cần chiên giòn là có...</p>
+
+                    </div>
+                    <a class="readmore" href="/tin-tuc/cach-che-bien-mon-ngon-tu-kho-ca-dua-9163.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="article_item">
+                <div class="article_img">
+                    <a href="/tin-tuc/cach-lam-muc-tam-bot-chien-gion-thom-ngon-9162.html">
+                        <img src="/Uploads/shop2005/images/news/cach-lam-muc-tam-bot-chien-gion-thom-ngon.jpg" alt="Cách làm mực tẩm bột chiên giòn thơm ngon" title="Cách làm mực tẩm bột chiên giòn thơm ngon">
+                    </a>
+                </div>
+                <div class="article_content clearfix">
+                    <div class="title">
+                        <h4><a href="/tin-tuc/cach-lam-muc-tam-bot-chien-gion-thom-ngon-9162.html" title="Cách làm mực tẩm bột chiên giòn thơm ngon">Cách làm mực tẩm bột chiên giòn thơm ngon</a></h4>
+                    </div>
+                    <div class="article_meta">
+                        <div class="article_comment">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                        </div>
+                        <div class="article_created">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                        </div>
+                    </div>
+                    <div class="des">
+                        <p>Có rất nhiều món ăn được chế biến từ những nguyên liệu khá phổ biến và thưởng... &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                    </div>
+                    <a class="readmore" href="/tin-tuc/cach-lam-muc-tam-bot-chien-gion-thom-ngon-9162.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="article_item">
+                <div class="article_img">
+                    <a href="/tin-tuc/muc-om-nuoc-dua-hat-sen-9161.html">
+                        <img src="/Uploads/shop2005/images/news/muc-om-nuoc-dua-hat-sen.jpg" alt="Mực om nước dừa hạt sen" title="Mực om nước dừa hạt sen">
+                    </a>
+                </div>
+                <div class="article_content clearfix">
+                    <div class="title">
+                        <h4><a href="/tin-tuc/muc-om-nuoc-dua-hat-sen-9161.html" title="Mực om nước dừa hạt sen">Mực om nước dừa hạt sen</a></h4>
+                    </div>
+                    <div class="article_meta">
+                        <div class="article_comment">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                        </div>
+                        <div class="article_created">
+                            <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                        </div>
+                    </div>
+                    <div class="des">
+                        <p>&nbsp;500 g mực ống tươi làm sạch và để nguyên con 150 g hạt sen 100 g giò sống 150 ml nước dừa Gia...&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                    </div>
+                    <a class="readmore" href="/tin-tuc/muc-om-nuoc-dua-hat-sen-9161.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+    </div>
+</div>
+<!-- End blog sidebar -->
+                    </div>
+                    <div class="col-md-9">
+
+    <div class="product_home">
+        <div class="product_home_image">
+            <a href="/san-pham/tom-33806">
+                <img src="/Uploads/shop2005/images/slide/image-product-home-1.jpg" alt="Tôm">
+                <div class="figcaption"></div>
+            </a>
+        </div>
+        <div class="clearfix">
+            <div class="section-heading">
+                <h2 title="Tôm">
+                    <span>Tôm</span>
+                </h2>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="product-list">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/coi-so-diep.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/coi-so-diep-1_master.jpg" alt="Cồi sò điệp">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146274,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ coi-so-diep.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/coi-so-diep.html" title="Cồi sò điệp">Cồi sò điệp</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">160.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/hau-sua.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/hau-sua-1_master.jpg" alt="Hàu sữa">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146275,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ hau-sua.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/hau-sua.html" title="Hàu sữa">Hàu sữa</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">120.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/ngao-2-coi.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/ngao-2-coi-1_master.jpg" alt="Ngao 2 cồi">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146276,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ ngao-2-coi.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/ngao-2-coi.html" title="Ngao 2 cồi">Ngao 2 cồi</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">190.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/oc-mong-tay.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/oc-mong-tay-1_master.jpg" alt="Ốc móng tay">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146277,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ oc-mong-tay.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/oc-mong-tay.html" title="Ốc móng tay">Ốc móng tay</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">370.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="product-sale">
+                                        <span class="sale-lb">-33%</span>
+                                    </div>
+                                <a href="/san-pham/so-diep.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/so-diep-1_master.jpg" alt="Sò điệp">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146278,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ so-diep.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/so-diep.html" title="Sò điệp">Sò điệp</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">100.000&nbsp;₫</span>
+                                                <del class="pro-compare-price">150.000&nbsp;₫</del>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/so-mai.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/so-mai-1_master.jpg" alt="Sò Mai">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146279,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ so-mai.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/so-mai.html" title="Sò Mai">Sò Mai</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">290.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/tom-cang-xanh.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_cang_xanh_01_master.jpg" alt="Tôm Càng Xanh">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146280,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-cang-xanh.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-cang-xanh.html" title="Tôm Càng Xanh">Tôm Càng Xanh</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">340.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/tom-hum-baby.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_hum_baby_01_master.jpg" alt="Tôm hùm baby">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146281,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-hum-baby.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-hum-baby.html" title="Tôm hùm baby">Tôm hùm baby</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">1.000.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="product-sale">
+                                        <span class="sale-lb">-39%</span>
+                                    </div>
+                                <a href="/san-pham/tom-su-bien.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_su_bien_new_1_master.jpg" alt="Tôm sú biển">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146282,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-su-bien.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-su-bien.html" title="Tôm sú biển">Tôm sú biển</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">1.150.000&nbsp;₫</span>
+                                                <del class="pro-compare-price">1.880.000&nbsp;₫</del>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/tom-hum-canada.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_hum_canada_new_1_master.jpg" alt="Tôm hùm Canada">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146283,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-hum-canada.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-hum-canada.html" title="Tôm hùm Canada">Tôm hùm Canada</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">1.140.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/tom-mu-ni-song.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_mu_ni_new_1_master.jpg" alt="Tôm mũ ni sống">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146284,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-mu-ni-song.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-mu-ni-song.html" title="Tôm mũ ni sống">Tôm mũ ni sống</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">1.100.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="product-sale">
+                                        <span class="sale-lb">-33%</span>
+                                    </div>
+                                <a href="/san-pham/tom-hum-tre.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_hum_tre_01_master.jpg" alt="Tôm hùm tre">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146286,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-hum-tre.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-hum-tre.html" title="Tôm hùm tre">Tôm hùm tre</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">1.000.000&nbsp;₫</span>
+                                                <del class="pro-compare-price">1.500.000&nbsp;₫</del>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="show_more">
+            Mời bạn <a href="/san-pham/tom-33806">Xem thêm các sản phẩm Tôm</a> khác
+        </div>
+    </div>
+    <div class="product_home">
+        <div class="product_home_image">
+            <a href="/san-pham/cua-nghe-33809">
+                <img src="/Uploads/shop2005/images/slide/image-product-home-3.jpg" alt="Cua nghẹ">
+                <div class="figcaption"></div>
+            </a>
+        </div>
+        <div class="clearfix">
+            <div class="section-heading">
+                <h2 title="Cua nghẹ">
+                    <span>Cua nghẹ</span>
+                </h2>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="product-list">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/oc-gai.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/oc-gai-1_master.jpg" alt="Ốc Gai">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146287,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ oc-gai.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/oc-gai.html" title="Ốc Gai">Ốc Gai</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">140.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="show_more">
+            Mời bạn <a href="/san-pham/cua-nghe-33809">Xem thêm các sản phẩm Cua nghẹ</a> khác
+        </div>
+    </div>
+    <div class="product_home">
+        <div class="product_home_image">
+            <a href="/san-pham/sua-33810">
+                <img src="/Uploads/shop2005/images/slide/image-product-home-2.jpg" alt="Sứa">
+                <div class="figcaption"></div>
+            </a>
+        </div>
+        <div class="clearfix">
+            <div class="section-heading">
+                <h2 title="Sứa">
+                    <span>Sứa</span>
+                </h2>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="product-list">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="product-sale">
+                                        <span class="sale-lb">-38%</span>
+                                    </div>
+                                <a href="/san-pham/oc-giac.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/oc-giac-1_master.jpg" alt="Ốc giác">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146288,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ oc-giac.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/oc-giac.html" title="Ốc giác">Ốc giác</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">200.000&nbsp;₫</span>
+                                                <del class="pro-compare-price">320.000&nbsp;₫</del>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="sold-out">Hot</div>
+                                <a href="/san-pham/oc-huong.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/oc-huong-1_master.jpg" alt="Ốc Hương">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146289,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ oc-huong.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/oc-huong.html" title="Ốc Hương">Ốc Hương</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">850.000&nbsp;₫</span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 product-wrapper zoomIn wow" style="visibility: visible; animation-name: zoomIn;">
+                        <div class="product-block product-resize fixheight" style="height: 299px;">
+                            <div class="product-image image-resize" style="height: 212px;">
+                                    <div class="product-sale">
+                                        <span class="sale-lb">-29%</span>
+                                    </div>
+                                <a href="/san-pham/tom-hum-bong.html">
+                                    <img class="first-img" src="/Uploads/shop2005/images/product/tom_hum_bong_01_master.jpg" alt="Tôm hùm bông">
+                                </a>
+                                <div class="product-actions hidden-xs">
+                                        <div class="btn-add-to-cart" onclick="AddToCard(146290,1)">
+                                            <a href="javascript:void(0);"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                        </div>
+                                    <div class="btn_quickview">
+                                        <a class="quickview" href="/san-pham/ tom-hum-bong.html"><i class="fa fa-eye"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info text-center m-t-xxs-20">
+                                <h3 class="pro-name">
+                                    <a href="/san-pham/tom-hum-bong.html" title="Tôm hùm bông">Tôm hùm bông</a>
+                                </h3>
+                                        <div class="pro-prices">
+                                                <span class="pro-price">2.400.000&nbsp;₫</span>
+                                                <del class="pro-compare-price">3.360.000&nbsp;₫</del>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="show_more">
+            Mời bạn <a href="/san-pham/sua-33810">Xem thêm các sản phẩm Sứa</a> khác
+        </div>
+    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+            <div class="partner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+
+<!--Blog-->
+<section id="blog_index" class="container m-b-20">
+    <div class="row">
+        <div class="col-md-12 col-xs-12">
+            <div class="section-heading">
+                <h2 title="Tin tức nổi bật">
+                    <span>Tin tức nổi bật</span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="blog_index_list" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 4800px; left: 0px; display: block; transition: all 400ms ease 0s; transform: translate3d(-600px, 0px, 0px);"><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/canh-rong-bien-thit-bo-9165.html">
+                            <img src="/Uploads/shop2005/images/news/canh-rong-bien-thit-bo.jpg" alt="Canh Rong Biển Thịt Bò" title="Canh Rong Biển Thịt Bò">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/canh-rong-bien-thit-bo-9165.html" title="Canh Rong Biển Thịt Bò">Canh Rong Biển Thịt Bò</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>&nbsp;Bước 1: Cho tất cả rong biển vào ngâm trong nước. Sau khoảng 15 phút, vớt ra...&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/canh-rong-bien-thit-bo-9165.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/ca-hoi-nuong-giay-bac-9164.html">
+                            <img src="/Uploads/shop2005/images/news/ca-hoi-nuong-giay-bac.jpg" alt="Cá Hồi nướng giấy bạc" title="Cá Hồi nướng giấy bạc">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/ca-hoi-nuong-giay-bac-9164.html" title="Cá Hồi nướng giấy bạc">Cá Hồi nướng giấy bạc</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>Cá hồi không chỉ dùng ăn gỏi. Chúng ta còn có thể biến tấu phong phú hơn...&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/ca-hoi-nuong-giay-bac-9164.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/cach-che-bien-mon-ngon-tu-kho-ca-dua-9163.html">
+                            <img src="/Uploads/shop2005/images/news/cach-che-bien-mon-ngon-tu-kho-ca-dua.jpg" alt="Cách chế biến món ngon từ khô cá dứa" title="Cách chế biến món ngon từ khô cá dứa">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/cach-che-bien-mon-ngon-tu-kho-ca-dua-9163.html" title="Cách chế biến món ngon từ khô cá dứa">Cách chế biến món ngon từ khô cá dứa</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>Cá Dứa một nắng đã được tẩm gia vị, do đó chỉ cần chiên giòn là có...</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/cach-che-bien-mon-ngon-tu-kho-ca-dua-9163.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/cach-lam-muc-tam-bot-chien-gion-thom-ngon-9162.html">
+                            <img src="/Uploads/shop2005/images/news/cach-lam-muc-tam-bot-chien-gion-thom-ngon.jpg" alt="Cách làm mực tẩm bột chiên giòn thơm ngon" title="Cách làm mực tẩm bột chiên giòn thơm ngon">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/cach-lam-muc-tam-bot-chien-gion-thom-ngon-9162.html" title="Cách làm mực tẩm bột chiên giòn thơm ngon">Cách làm mực tẩm bột chiên giòn thơm ngon</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>Có rất nhiều món ăn được chế biến từ những nguyên liệu khá phổ biến và thưởng... &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/cach-lam-muc-tam-bot-chien-gion-thom-ngon-9162.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/muc-om-nuoc-dua-hat-sen-9161.html">
+                            <img src="/Uploads/shop2005/images/news/muc-om-nuoc-dua-hat-sen.jpg" alt="Mực om nước dừa hạt sen" title="Mực om nước dừa hạt sen">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/muc-om-nuoc-dua-hat-sen-9161.html" title="Mực om nước dừa hạt sen">Mực om nước dừa hạt sen</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>&nbsp;500 g mực ống tươi làm sạch và để nguyên con 150 g hạt sen 100 g giò sống 150 ml nước dừa Gia...&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/muc-om-nuoc-dua-hat-sen-9161.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/tom-hap-bia-9160.html">
+                            <img src="/Uploads/shop2005/images/news/tom-hap-bia.jpg" alt="Tôm hấp bia" title="Tôm hấp bia">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/tom-hap-bia-9160.html" title="Tôm hấp bia">Tôm hấp bia</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>Nguyên liệu làm món tôm hấp bia : – Tôm sú: 1kg . Chon tôm không – Bia: 1 lon– Sả:&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/tom-hap-bia-9160.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/cach-lam-lau-kim-chi-hai-san-9159.html">
+                            <img src="/Uploads/shop2005/images/news/cach-lam-lau-kim-chi-hai-san.jpg" alt="Cách làm lẩu kim chi hải sản" title="Cách làm lẩu kim chi hải sản">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/cach-lam-lau-kim-chi-hai-san-9159.html" title="Cách làm lẩu kim chi hải sản">Cách làm lẩu kim chi hải sản</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>Lẩu kimchi chua chua cay cay lại thêm vị ngọt của hải sản, cực kỳ tuyệt vời luôn nhé!&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/cach-lam-lau-kim-chi-hai-san-9159.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div><div class="owl-item" style="width: 300px;"><div class="article_item">
+                    <div class="article_img">
+                        <a href="/tin-tuc/muc-chien-xu-sot-wasabi-an-mot-mieng-la-me-man-ngay-9158.html">
+                            <img src="/Uploads/shop2005/images/news/muc-chien-xu-sot-wasabi-an-mot-mieng-la-me-man-ngay.jpg" alt="Mực chiên xù sốt wasabi ăn một miếng là mê mẩn ngay" title="Mực chiên xù sốt wasabi ăn một miếng là mê mẩn ngay">
+                        </a>
+                    </div>
+                    <div class="article_content clearfix">
+                        <div class="title">
+                            <h4><a href="/tin-tuc/muc-chien-xu-sot-wasabi-an-mot-mieng-la-me-man-ngay-9158.html" title="Mực chiên xù sốt wasabi ăn một miếng là mê mẩn ngay">Mực chiên xù sốt wasabi ăn một miếng là mê mẩn ngay</a></h4>
+                        </div>
+                        <div class="article_meta">
+                            <div class="article_comment">
+                                <i class="fa fa-comments-o" aria-hidden="true"></i> 0 bình luận
+                            </div>
+                            <div class="article_created">
+                                <i class="fa fa-calendar" aria-hidden="true"></i> <time datetime="16/06/2017">16/06/2017</time>
+                            </div>
+                        </div>
+                        <div class="des">
+                            <p>Mực chiên xù thì chẳng ai lạ lẫm gì nữa rồi, nhưng mực chiên xóc với sốt... &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+                        </div>
+                        <a class="readmore" href="/tin-tuc/muc-chien-xu-sot-wasabi-an-mot-mieng-la-me-man-ngay-9158.html">Đọc tiếp <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                    </div>
+                </div></div></div></div>
+                
+                
+                
+                
+                
+                
+                
+        </div>
+    </div>
+</section>
+<!--EndBlog-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+        <div class="footer">
+
+<script src="/app/services/moduleServices.js"></script>
+<script src="/app/controllers/moduleController.js"></script>
+    <footer class="footer-content">
+        <div class="footer_top">
+            <div class="container">
+                <div class="footer_top_wrap">
+                    <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <!-- footer col 1 -->
+                                <div class="footer_block">
+                                    <h4 class="footer_block_title">
+                                        Về chúng tôi
+                                    </h4>
+                                    <div class="block_content">
+                                            <ul class="list_group">
+                                                                <li class="item">
+                                                                    <a href="/gioi-thieu.html">
+                                                                        Giới thiệu
+                                                                    </a>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <a href="/content/giao-hang-doi-tra.html">
+                                                                        Giao hàng - Đổi trả
+                                                                    </a>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <a href="/content/chinh-sach-bao-mat.html">
+                                                                        Chính sách bảo mật
+                                                                    </a>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <a href="/lien-he.html">
+                                                                        Liên hệ
+                                                                    </a>
+                                                                </li>
+                                            </ul>
+                                    </div>
+                                </div>
+                                <!-- End footer col 1 -->
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                                <!-- footer col 1 -->
+                                <div class="footer_block">
+                                    <h4 class="footer_block_title">
+                                        Trợ giúp
+                                    </h4>
+                                    <div class="block_content">
+                                            <ul class="list_group">
+                                                                <li class="item">
+                                                                    <a href="/content/huong-dan-mua-hang.html">
+                                                                        Hướng dẫn mua hàng
+                                                                    </a>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <a href="/content/huong-dan-thanh-toan.html">
+                                                                        Hướng dẫn thanh toán
+                                                                    </a>
+                                                                </li>
+                                                                <li class="item">
+                                                                    <a href="/content/tai-khoan-giao-dich.html">
+                                                                        Tài khoản giao dịch
+                                                                    </a>
+                                                                </li>
+                                            </ul>
+                                    </div>
+                                </div>
+                                <!-- End footer col 1 -->
+                            </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <!-- footer col 3 -->
+                            <div class="footer_block">
+                                <h4 class="footer_block_title">
+                                    Đăng ký nhận bản tin
+                                </h4>
+                                <div class="block_content ng-scope" ng-controller="moduleController" ng-init="initController()">
+                                    <div class="des_newsletter_form">
+                                        Đăng Ký Thành Viên Để Nhận Bản Tin Mỗi Ngày:
+                                    </div>
+                                    <form id="newsletter_form" ng-submit="registerNewsletter()" class="m-b-20 contact-form ng-pristine ng-valid-email ng-invalid ng-invalid-required">
+                                        <div class="newsletter_wrap">
+                                            <input ng-model="newsletter.Email" required="" id="contact_email" autocomplete="off" type="email" class="ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required">
+                                            <label>Email của bạn </label>
+                                            <button class="btn-newsletter" type="submit">
+                                                <span><i class="fa fa-paper-plane-o"></i></span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- End footer col 3 -->
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <!-- footer col 4 -->
+                            <div class="footer_block">
+                                <h4 class="footer_block_title">
+                                    Theo dõi trên Fanpage
+                                </h4>
+                                <div class="block_content">
+                                    <div class="fb-page fb_iframe_widget" data-small-header="true" data-href="https://www.facebook.com/runtime.vn" data-tabs="message" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=227481454296289&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fruntime.vn&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=message"><span style="vertical-align: bottom; width: 0px; height: 0px;"><iframe name="f31d8353bc74748" width="1000px" height="1000px" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.6/plugins/page.php?adapt_container_width=true&amp;app_id=227481454296289&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df2b52faf6c20e5c%26domain%3Dhoantph06495.runtime.vn%26origin%3Dhttp%253A%252F%252Fhoantph06495.runtime.vn%252Ff2fbc45d32f7278%26relation%3Dparent.parent&amp;container_width=285&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fruntime.vn&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=message" style="border: none; visibility: visible; width: 0px; height: 0px;" class=""></iframe></span></div>
+                                </div>
+                            </div>
+                            <!-- End footer col 4 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_bottom_wrap">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="footer_address">
+                                <p><span>hoantph</span></p>
+                                <p><span>Địa chỉ: nam định</span></p>
+                                <p><span>Số điện thoại: 0943235498</span></p>
+                                <p><span>Số di động: 0943235498</span></p>
+                                <p><span>Email: hoantph06495@fpt.edu.vn</span></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 text-right text-center-xs">
+                            <div class="copy_right">
+                                <p>
+                                    © 2017. Bản quyền thuộc về <a rel="nofollow" href="http://www.runtime.vn"></a>. Powered by <a href="http://www.runtime.vn">RUNTIME.VN</a>
+                                </p>
+                            </div>
+                            <div class="social_footer">
+                                <ul>
+                                    <li><a><span><i class="fa fa-facebook"></i></span></a></li>
+                                    <li><a><span><i class="fa fa-twitter"></i></span></a></li>
+                                    <li><a><span><i class="fa fa-google-plus"></i></span></a></li>
+                                    <li><a><span><i class="fa fa-youtube"></i></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--Template--
+<footer class="footer-content" ng-controller="moduleController" ng-init="initFooterController('Shop')">
+    <div class="footer_top">
+        <div class="container">
+            <div class="footer_top_wrap">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12" ng-repeat="item in menus|filter: { ParentId: null }|limitTo:2">
+                        <div class="footer_block">
+                            <h4 class="footer_block_title">
+                                <span>{{item.Name}}</span>
+                            </h4>
+                            <div class="block_content">
+                                <ul class="list_group" ng-if="(menus|filter: { ParentId: item.Id }).length>0">
+                                    <li ng-repeat="it in menus|filter: { ParentId: item.Id }">
+                                        <a href="/{{it.PageCode}}.html" ng-if="it.LinkType==LinkTypeConst.Page">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="/{{it.PageOptionCode}}/{{it.PageContentCode}}.html" ng-if="it.LinkType==LinkTypeConst.PageContent">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="/san-pham/{{it.ProductGroupCode}}" ng-if="it.LinkType==LinkTypeConst.GroupProduct">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="/tin-tuc/{{it.NewsGroupCode}}" ng-if="it.LinkType==LinkTypeConst.GroupNews">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="/du-an/{{it.ProjectGroupCode}}" ng-if="it.LinkType==LinkTypeConst.GroupProject">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="/dich-vu/{{it.ServiceGroupCode}}" ng-if="it.LinkType==LinkTypeConst.GroupService">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="/san-giao-dich/{{it.ExchangeGroupCode}}" ng-if="it.LinkType==LinkTypeConst.GroupExchange">
+                                            {{it.Name}}
+                                        </a>
+                                        <a href="{{it.Url}}" ng-if="it.LinkType==LinkTypeConst.Url">
+                                            {{it.Name}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer_block">
+                            <h4 class="footer_block_title">
+                                Đăng ký nhận bản tin
+                            </h4>
+                            <div class="block_content">
+                                <div class="des_newsletter_form">
+                                    Đăng Ký Thành Viên Để Nhận Bản Tin Mỗi Ngày:
+                                </div>
+                                <form id="newsletter_form" ng-submit="registerNewsletter()" class="m-b-20 contact-form">
+                                    <div class="newsletter_wrap">
+                                        <input ng-model="newsletter.Email" required="" id="contact_email" autocomplete="off" type="email">
+                                        <label>Email của bạn </label>
+                                        <button class="btn-newsletter" type="submit">
+                                            <span><i class="fa fa-paper-plane-o"></i></span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer_block">
+                            <h4 class="footer_block_title">
+                                Theo dõi trên Fanpage
+                            </h4>
+                            <div class="block_content">
+                                <div class="fb-page" data-small-header="true" data-href="{{shop.Fanpage}}" data-tabs="message" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="footer_bottom_wrap">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="footer_address">
+                            <p><span>{{shop.Name}}</span></p>
+                            <p><span>Địa chỉ: {{shop.Address}}</span></p>
+                            <p><span>Số điện thoại: {{shop.Phone}}</span></p>
+                            <p><span>Số di động: {{shop.Hotline}}</span></p>
+                            <p><span>Email: {{shop.Email}}</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-right text-center-xs">
+                        <div class="copy_right">
+                            <p>
+                                &copy; 2017. Bản quyền thuộc về <a rel="nofollow" href="{{shop.Website}}">{{shop.Name}}</a>. Powered by <a href="http://www.runtime.vn">RUNTIME.VN</a>
+                            </p>
+                        </div>
+                        <div class="social_footer">
+                            <ul>
+                                <li><a href="{{shop.Facebook}}"><span><i class="fa fa-facebook"></i></span></a></li>
+                                <li><a href="{{shop.Twitter}}"><span><i class="fa fa-twitter"></i></span></a></li>
+                                <li><a href="{{shop.Google}}"><span><i class="fa fa-google-plus"></i></span></a></li>
+                                <li><a href="{{shop.Youtube}}"><span><i class="fa fa-youtube"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+--End-->
+        </div>
+
+</div>
+
+
+    <div style="display: none;" id="loading-mask">
+        <div id="loading_mask_loader" class="loader">
+            <img alt="Loading..." src="/Images/ajax-loader-main.gif">
+            <div>
+                Please wait...
+            </div>
+        </div>
+    </div>
+    <a href="javascript:void(0);" class="back-to-top" style="display: inline;"><span>Top</span></a>
+    
+    
+
+
+<script type="text/javascript">
+    $(".header-content").css({ "background": '' });
+    $("html").addClass('');
+</script>
+
+</body></html>

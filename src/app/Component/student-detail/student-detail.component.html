@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="offset-3 col-5 offset-3">
+    <div class="card">
+      <pre>{{ cate | json }}</pre>
+      <img class="card-img-top" src="{{StudentDetail.photo}}" alt="Card image" style="width:100%">
+      <div class="card-body">
+        <!-- fix cate name -->
+        <span>Category: <span class="mahs">{{cate?.name}}</span> </span><br>
+        <span>Số báo danh: <span class="mahs">{{StudentDetail?.id}}</span> </span>
+        <h4 class="card-title">{{StudentDetail?.name}}</h4>
+        <p class="card-text">Giới tính: {{StudentDetail?.gender == true ? 'Nam' : 'Nữ'}}</p>
+        <p class="card-text">Danh hiệu học sinh: {{StudentDetail?.point > 5 ? 'Giỏi' : 'TB'}}</p>
+        <a class="btn btn-warning" data-toggle="collapse" data-target="#demo">Sửa</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div id="demo" class="collapse">
+  <form>
+    <input type="text" class="form-control" name="uname" id="name" required placeholder="Student Name"
+      [(ngModel)]="StudentDetail.name" [ngModelOptions]="{standalone: true}">
+    <br>
+    <input type="number" class="form-control" name="uname" required placeholder="Student Point" max="10" min="0"
+      [(ngModel)]="StudentDetail.point" [ngModelOptions]="{standalone: true}">
+    <br>
+    <label for="">Student Gender</label>
+    <div class="custom-control custom-radio">
+      <li>
+        <input type="radio" class="custom-control-input" name="uname" required id="nam" name="example1"
+          checked="checked" [(ngModel)]="StudentDetail.gender" [value]="true">
+        <label class="custom-control-label" for="nam">Nam</label>
+      </li>
+      <li>
+        <input type="radio" class="custom-control-input" name="uname" required id="nu" name="example1"
+          [(ngModel)]="StudentDetail.gender" [value]="false">
+        <label class="custom-control-label" for="nu">Nữ</label>
+      </li>
+    </div>
+    <br>
+    <input type="text" class="form-control" name="uname" required placeholder="Student Photo"
+      [(ngModel)]="StudentDetail.photo" [ngModelOptions]="{standalone: true}">
+    <button (click)="editStudentAPI(StudentDetail)" class="btn btn-danger float-right" data-dismiss="modal"> Save API
+    </button>
+  </form>
+</div>
+
+<br><br>

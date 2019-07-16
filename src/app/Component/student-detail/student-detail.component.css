@@ -1,0 +1,10 @@
+.mahs{
+    font-size: large;
+}
+button#xoa{
+    float: left;
+}
+.modal-footer{
+    display: inline-block !important;
+}
+ 

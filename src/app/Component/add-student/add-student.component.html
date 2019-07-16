@@ -1,0 +1,95 @@
+<button class="btn btn-success mb-3" data-toggle="modal" data-target="#addStudent">Thêm Học Sinh</button>
+
+<!-- The Modal -->
+<div class="modal fade" id="addStudent">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Thêm Học Sinh</h4>
+        <button type="button" class="close" data-dismiss="modal" id="linkid">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form #formAddS="ngForm" (submit)="onSubmit(formAddS)">
+          <div class="form-group">
+            <input type="text"
+                   [ngClass]="(studentName.dirty && studentName.invalid) ? 'form-control border-danger' : 'form-control'"
+                   name="name" id="name"
+                   minlength="5"
+                   required
+                   placeholder="Student Name"
+                   [(ngModel)]="student.name"
+                   #studentName="ngModel"
+            >
+            <div class="alert alert-danger mt-3"
+                 role="alert"
+                 *ngIf="studentName.dirty && studentName.errors?.required">
+              Không để trông tên!
+            </div>
+            <div class="alert alert-danger" role="alert" *ngIf="studentName.dirty && studentName.errors?.minlength">
+              Không được nhỏ hơn 5 ký tự!
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="number"
+            [ngClass]="(studentPoint.dirty && studentPoint.invalid) ? 'form-control border-danger' : 'form-control'"
+                   name="point"
+                   required
+                   placeholder="Student Point"
+                   max="10"
+                   min="0"
+                   [(ngModel)]="student.point" name="point" #studentPoint="ngModel" required>
+              <div class="alert alert-danger" role="alert" *ngIf="studentPoint.dirty && studentPoint.errors?.required">
+                Không để trông điểm!
+              </div>
+          </div>
+          <!-- <div class="alert alert-danger"
+               role="alert" *ngIf="studentPoint.dirty  && studentPoint.errors?.max">
+            Thang điểm từ 0 -> 10
+          </div> -->
+          <div class="form-group">
+            <label for="">Student Gender</label>
+            <div class="form-check">
+              <input type="radio"
+                     class="form-check-input"
+                     name="gender"
+                     required
+                     id="nam"
+                     checked="checked" [(ngModel)]="student.gender" #studentGender="ngModel" [value]="true">
+              <label class="form-check-label" for="nam">
+                Nam
+              </label>
+            </div>
+            <div class="form-check">
+              <input type="radio"
+                     name="gender"
+                     class="form-check-input"
+                     required
+                     id="nu"
+                     [(ngModel)]="student.gender" #studentGender="ngModel" [value]="false">
+              <label class="form-check-label"  for="nu">Nu</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">Category</label>
+            <select name="cars" class="form-control" [(ngModel)]="student.cateid"
+                    #studentCateId="ngModel" name="cateId" *ngIf="categorys">
+              <option *ngFor="let item of categorys" [value]="item.cateid">{{item.name}} </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">Photo</label>
+            <input class="form-control" type="text" name="photo"  [(ngModel)]="student.photo" placeholder="Student Photo" 
+                     #studentPhoto="ngModel" value="https://s3.amazonaws.com/uifaces/faces/twitter/mwarkentin/128.jpg" >
+          </div>
+       
+          <button type="submit" class="btn btn-danger float-right"> Thêm</button>
+          
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
